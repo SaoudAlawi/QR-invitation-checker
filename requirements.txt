@@ -1,5 +1,6 @@
 opencv_python_headless==4.10.0.84
 pandas==2.0.3
+numpy==1.26.4
 pyzbar==0.1.9
 qrcode==7.4.2
 streamlit==1.39.0
