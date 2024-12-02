@@ -4,7 +4,7 @@ import qrcode
 import os
 
 # Generate 100 UUIDs and set 'Used' status to False
-uuid_data = [{"UUID": str(uuid.uuid4()), "Used": False} for _ in range(105)]
+uuid_data = [{"UUID": str(uuid.uuid4()), "Used": False} for _ in range(100)]
 
 # Convert the list to a DataFrame
 df = pd.DataFrame(uuid_data)
